@@ -1,0 +1,10 @@
+//= require jquery
+//= require jquery_ujs
+//= require jquery-ui
+//= require promise
+//= require fetch
+//= require bootstrap-sprockets
+//= require lodash
+//= require cape
+//= require_tree ./mixins
+//= require_tree .

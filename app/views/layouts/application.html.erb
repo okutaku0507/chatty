@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatty</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= favicon_link_tag %>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="Chatty,chat,realtime" />
+    <meta name="description" content="Chatty - Realtime Chat App with CapeJS and Rails5" />
+    <meta property="og:title" content="Chatty - Realtime Chat App with CapeJS and Rails5 " />
+    <meta property="og:description" content="Chat in Realtime" />
+    <meta property="og:image" content="<%= image_url('top.png', only_path: false) %>"/>
+    <meta property="og:url" content="<%= request.url %>"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Chatty"/>
+  </head>
+
+  <body>
+    <div id='top-bar'></div>
+    <%= yield %>
+  </body>
+</html>

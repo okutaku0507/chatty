@@ -1,0 +1,70 @@
+// common/common.css.scss
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Menlo, Monaco, "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  height: 100%;
+}
+
+div#main {
+  height: 100%;
+}
+
+div#header {
+  width: 100%;
+  background: #FFF;
+  border-color: #EEE;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  a.navbar-brand {
+    span:nth-child(1) { color: #E60012; }
+    span:nth-child(2) { color: #F39800; }
+    span:nth-child(3) { color: #FFF100; }
+    span:nth-child(4) { color: #009944; }
+    span:nth-child(5) { color: #0068B7; }
+    span:nth-child(6) { color: #1D2088; }
+  }
+}
+
+div#footer {
+  width: 100%;
+  margin-top: 80px;
+  color: #333;
+  position: absolute;
+  bottom: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  a { color: #555; }
+}
+
+div#content {
+  margin-top: 75px;
+  padding-bottom: 75px;
+}
+
+img {
+  border-style: none;
+}
+
+.nopadding {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.no-user-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+}

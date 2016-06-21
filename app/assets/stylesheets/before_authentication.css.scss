@@ -1,0 +1,45 @@
+div#before_authentication {
+  background-image: image-url("background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+
+  div#footer {
+    color: #333;
+    a { color: #333; }
+  }
+}
+
+#TopPage {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  margin-top: -50px;
+  text-align: center;
+  color: #333;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+
+  .main_txt {
+    font-size: 45px;
+    text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .sub_txt {
+    font-size: 20px;
+    text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  a {
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 5px 25px;
+  }
+}
