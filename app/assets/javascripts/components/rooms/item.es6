@@ -87,7 +87,7 @@ var Rooms = Rooms || {}
       let height = $(window).height(),
         scrollTop = $(window).scrollTop(),
         documentHeight = $(document).height()
-      if ((documentHeight - (height + scrollTop)) < 100) return true
+      if ((documentHeight - (height + scrollTop)) < 25) return true
       else return false
     }
 
