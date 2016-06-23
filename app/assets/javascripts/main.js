@@ -4,6 +4,7 @@ $(document).on("ready", function () {
   router = new Cape.Router()
   router.draw(function(m) {
     m.root('top.index')
+    m.page('about', 'top.about')
     m.many('rooms', { except: 'show' })
     m.page('rooms/:id', 'rooms.item')
   })

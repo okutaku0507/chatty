@@ -1,0 +1,12 @@
+ja:
+  activerecord:
+    attributes:
+      room:
+        name: お題
+    errors:
+      models:
+        room:
+          attributes:
+            name:
+              blank: を入力してください。
+              invalid: を正しく入力してください。

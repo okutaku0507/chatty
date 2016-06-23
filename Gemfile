@@ -10,10 +10,7 @@ gem 'jquery-ui-rails'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
 gem 'redis', '~> 3.0'
-
-# for Heroku
-# gem 'pg', groups: %w(production), require: false
-# gem 'rails_12factor', group: :production
+gem 'rails-i18n'
 
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
@@ -23,14 +20,13 @@ gem 'capejs-rails'
 gem 'sprockets', '~> 4.0.0.beta2'
 gem 'sprockets-rails'
 gem 'babel-transpiler'
+gem 'fetch-rails'
+gem 'es6-promise-rails'
+gem 'lodash-rails'
 
 # for Bootstrap, Font Awesome
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
-
-gem 'fetch-rails'
-gem 'es6-promise-rails'
-gem 'lodash-rails'
 
 group :development, :test do
   gem 'byebug', platform: :mri
